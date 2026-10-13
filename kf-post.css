@@ -135,3 +135,4 @@
 .kf-offrol-details p { margin: 0 0 8px 0; }
 .kf-offrol-details strong { color: #cbd5e1; }
 .kf-offrol-details ul { margin: 4px 0 0 0; padding-left: 18px; }
+.kf-post-card br { display: none !important; }
