@@ -1,0 +1,137 @@
+/* ==========================================
+   PLANTILLA DE POST: KYOSAI FUKA (KF)
+   ========================================== */
+
+/* Contenedor principal */
+.kf-post-card {
+  max-width: 550px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.75);
+  border: 1px solid #1e293b;
+  border-top: 3px solid #202ba1;
+  border-radius: 8px;
+  padding: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #cbd5e1;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+}
+
+/* Encabezado */
+.kf-post-header {
+  border-bottom: 1px solid #1e293b;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+}
+.kf-post-subtitle {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #202ba1;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 2px;
+}
+.kf-post-title {
+  margin: 0;
+  font-size: 24px;
+  color: #f8fafc;
+  letter-spacing: 1px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+.kf-post-title-kanji {
+  font-size: 14px;
+  color: #64748b;
+  font-weight: 400;
+}
+
+/* Etiquetas del post (Badges) */
+.kf-tag-group {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.kf-tag {
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 600;
+}
+.kf-tag-social { background: rgba(244, 63, 94, 0.1); color: #f43f5e; border: 1px solid rgba(244, 63, 94, 0.25); }
+.kf-tag-recoleccion { background: rgba(56, 189, 248, 0.1); color: #38bdf8; border: 1px solid rgba(56, 189, 248, 0.25); }
+.kf-tag-herboristeria { background: rgba(129, 140, 248, 0.1); color: #818cf8; border: 1px solid rgba(129, 140, 248, 0.25); }
+
+/* Cuerpo de la narración */
+.kf-post-content {
+  font-size: 12px;
+  line-height: 1.75;
+  color: #94a3b8;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+.kf-post-content p {
+  margin-top: 0;
+  margin-bottom: 14px;
+}
+.kf-post-dialogue {
+  margin: 15px 0 !important;
+  padding: 0 0 0 12px !important;
+  border: none !important;
+  border-left: 2px solid #202ba1 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  color: #f1f5f9 !important;
+  font-weight: bold !important;
+  font-size: 12.5px !important;
+  line-height: 1.6 !important;
+}
+
+/* Pie del post y Off-Rol */
+.kf-post-footer {
+  border-top: 1px dashed #1e293b;
+  padding-top: 14px;
+}
+.kf-post-meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  color: #64748b;
+  margin-bottom: 12px;
+}
+.kf-meta-label { color: #cbd5e1; font-weight: bold; }
+.kf-meta-partners { color: #202ba1; }
+
+.kf-offrol-box {
+  background: rgba(15, 23, 42, 0.6);
+  border: 1px solid #1e293b;
+  border-radius: 6px;
+  font-size: 12px;
+  color: #94a3b8;
+  overflow: hidden;
+}
+.kf-offrol-summary {
+  padding: 8px 12px;
+  cursor: pointer;
+  color: #cbd5e1;
+  font-weight: 600;
+  outline: none;
+  user-select: none;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.kf-offrol-arrow {
+  font-size: 10px;
+  opacity: 0.7;
+}
+.kf-offrol-details {
+  padding: 12px;
+  border-top: 1px solid #1e293b;
+  line-height: 1.6;
+  background: rgba(0, 0, 0, 0.3);
+}
+.kf-offrol-details p { margin: 0 0 8px 0; }
+.kf-offrol-details strong { color: #cbd5e1; }
+.kf-offrol-details ul { margin: 4px 0 0 0; padding-left: 18px; }
